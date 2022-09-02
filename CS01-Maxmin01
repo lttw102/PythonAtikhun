@@ -1,0 +1,7 @@
+a = []
+for i in range(int(input("Input loop : "))):
+    n = int(input("Input Data : "))
+    a.append(n)
+print()
+print(min(a))
+print(max(a))
